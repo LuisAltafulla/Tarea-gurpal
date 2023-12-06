@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quincena</title>
+  <link rel="stylesheet" href="../css/styleejer.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>Quincena</h1>
+  </header>
+  <img src="../img/LOGO-WEB-AZUL.JPG" alt="">
+  <main>
+    <strong><p>Ingrese un número de día del mes para verificar si ese día pertenece a la primera quincena (días 1-15) o a la segunda quincena (días 16-31).</p></strong>
+    <section class="container">
+      <form action="../index.html" method="dialog" >
+        <label for="num">
+          <input type="number" id="num" value="" placeholder="ingrese un numero" required>
+        </label>
+        <div class="botones">
+          <button type="button" class="boton" onclick="ope.quincena()">Aceptar</button>
+          <button type="submit" class="boton">Regresar</button>
+
+        </div>
+        <div id="resp">
+          aqui va a ir la respuesta:
+        </div>
+      </form>
+
+    </section>
+
+  </main>
+  <footer>
+    <h6>Todos los derechos reservados - Daniel Soft.</h6>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
